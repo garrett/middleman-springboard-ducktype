@@ -1,0 +1,25 @@
+= My First Topic
+@link[guide >index]
+@desc A short description of this page
+@revision[date=2014-11-13 status=draft]
+
+This is the first paragraph.
+The paragraph continues here, but ends with the blank line below.
+
+[steps]
+* This is a steps list, common in Mallard.
+* Without the [steps] declaration above, we'd get a normal bullet list.
+  Indentation is significant, so this is still in the second item.
+* Indentation is so significant that you can actually nest block elements.
+
+  So this is a new paragraph still inside the third item.
+
+  [note]
+  And this is a paragraph in a note in the third item.
+
+* You can also nest list items, or literally anything else.
+
+  * This is a basic bullet list.
+  * It is in the fourth item of the steps list.
+
+This paragraph is outside the steps list.
