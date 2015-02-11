@@ -97,3 +97,5 @@ gem 'font-awesome-middleman'
 
 # RSS/Atom parsing
 gem "feedjira"
+
+gem "tilt-ducktype", github: "garrett/tilt-ducktype"

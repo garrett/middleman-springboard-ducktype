@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/garrett/tilt-ducktype.git
+  revision: d66c54cc98ec636719e0849540289be86823e156
+  specs:
+    tilt-ducktype (0.0.1)
+      nokogiri
+      tilt
+
 GEM
   remote: http://rubygems.org/
   remote: https://rails-assets.org/
@@ -222,5 +230,6 @@ DEPENDENCIES
   ruby18_source_location
   stringex
   therubyracer
+  tilt-ducktype!
   wdm (~> 0.1.0)
   wikicloth
